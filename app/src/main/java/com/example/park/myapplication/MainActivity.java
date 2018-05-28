@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
         protected String doInBackground(String... strings) {
             try {
                 String str;
-                URL url = new URL("http://192.168.100.64:8080/webProject/data.jsp");
+                URL url = new URL("http://192.168.100.66:8080/webProject/data.jsp");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
                 conn.setRequestMethod("POST");
