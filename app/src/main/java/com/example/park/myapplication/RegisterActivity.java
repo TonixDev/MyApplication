@@ -148,6 +148,7 @@ public class RegisterActivity extends Activity {
                 });
                 alert.setMessage("사용 가능한 ID 입니다.");
                 alert.show();
+
             }
         }
     }
